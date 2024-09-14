@@ -1,0 +1,47 @@
+{
+	"name": "efs",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "vite dev --host",
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"lint": "prettier --check . && eslint .",
+		"format": "prettier --write ."
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+		"@types/eslint": "^9.6.0",
+		"autoprefixer": "^10.4.19",
+		"eslint": "^9.0.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.36.0",
+		"globals": "^15.0.0",
+		"postcss": "^8.4.40",
+		"prettier": "^3.1.1",
+		"prettier-plugin-svelte": "^3.1.2",
+		"svelte": "^4.2.7",
+		"sveltekit-superforms": "^2.16.1",
+		"tailwindcss": "^3.4.7",
+		"vite": "^5.0.3",
+		"zod": "^3.23.8"
+	},
+	"type": "module",
+	"dependencies": {
+		"@internationalized/date": "^3.5.5",
+		"@tabler/icons-svelte": "^3.11.0",
+		"bits-ui": "^0.21.13",
+		"clsx": "^2.1.1",
+		"cmdk-sv": "^0.0.18",
+		"formsnap": "^1.0.1",
+		"lucide-svelte": "^0.424.0",
+		"mode-watcher": "^0.4.1",
+		"pdfjs-dist": "^4.5.136",
+		"svelte-sonner": "^0.3.27",
+		"tailwind-merge": "^2.4.0",
+		"tailwind-variants": "^0.2.1"
+	}
+}
